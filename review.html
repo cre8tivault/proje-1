@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Yorumlar</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <!-- header section start  -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menubar">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="urunler/teddy-bear.html">Ürünler</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html" class="active">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+        <div class="buttons">
+             <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </button>
+             <button id="cart-btn" >
+                <i class="fa-solid fa-cart-shopping"></i>
+             </button>
+             <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+             </button>
+        </div>
+
+        <div class="search-form" id="search-form">
+  <input type="text" class="search-input" id="search-box" placeholder="Ara...">
+  <i class="fas fa-search"></i>
+</div>
+<div class="search-results" id="search-results"></div>
+
+        </div> 
+        
+         <div class="cart-items-container">
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-1.png" alt="Teddy-Bear">
+            <div class="content">
+              <h3>Teddy Bear</h3>
+              <div class="price">
+                750TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-2.png" alt="Bunny">
+            <div class="content">
+              <h3>Bunny</h3>
+              <div class="price">
+                650TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-3.png" alt="Bag">
+            <div class="content">
+              <h3>Bag</h3>
+              <div class="price">
+                1850TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+        
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-4.png" alt="Broş">
+            <div class="content">
+              <h3>Broş</h3>
+              <div class="price">
+                2750TL
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">Satın Al</a>
+         </div>
+          </div>
+          
+    </header>
+
+    <!-- header section stop  -->
+
+    <!-- Review section start -->
+    <div style="height: 7.5rem;"></div>
+      <section class="Review" id="review">
+        <h1 class="heading">Müşteri  <span>Yorumları</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="images/yorum.png" alt="yorum" class="icon">
+            <p>
+              Ürünleriniz gerçekten çok hoş. Özellikle sizden geçen gün eşime bir bluz aldım, gerçekten dokusu o kadar güzel ki anlatamam. Tam anlamıyla 5 yıldızı
+              hakediyorsunuz.
+            </p>
+            <img src="images/avatar-1.png" alt="avatar" class="user">
+            <h3>Michael Cato</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/yorum.png" alt="yorum" class="icon">
+            <p>
+              İnternette gezinirken sitenize rastladım. Gerçekten ürünleriniz diğer yerlerden daha kaliteli. videolara ayrıca bayıldım. 
+              Bu sayede evde kendimde ayrıca hobi edinmiş oldum sayenizde. Çok teşekkür ederim.
+            </p>
+            <img src="images/avatar-2.png" alt="avatar" class="user">
+            <h3>Jennifer Cahol</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/yorum.png" alt="yorum" class="icon">
+            <p>
+              Herhangi bir mağazaya gidip istediklerimi arayıp bulamayınca çılgına dönüyordum. Sizinle tanışınca resmen hayatım değişti. 
+              Hem eşime hem de çocuklarıma bir şeyler bulabildim. Ayrıca videolarınızı izleyip kendimde bir kaç tane yapabildim. Çok teşekkür ederim.
+            </p>
+            <img src="images/avatar-3.png" alt="avatar" class="user">
+            <h3>Angela Won</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+    <!-- Review section stop -->
+
+    <!-- footer section start -->
+
+        <section class="footer">
+          
+          <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=61577990375476" target="_blank" rel="noopener" class="fab fa-facebook" title="Facebook"></a>
+            <a href="https://www.instagram.com/hobigari/" target="_blank" rel="noopener" class="fab fa-instagram" title="Instagram"></a>
+            <a href="https://x.com/HobiGari" target="_blank" rel="noopener" class="fab fa-twitter" title="Twitter"></a>
+            <a href="https://www.youtube.com/@HobiGari" target="_blank" rel="noopener" class="fab fa-youtube" title="YouTube"></a>
+            <a href="https://tr.pinterest.com/hobigari/" target="_blank" rel="noopener" class="fab fa-pinterest" title="Pinterest"></a>
+          </div>
+          <div class="links">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="urunler/teddy-bear.html">Proje</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+          </div>
+
+          <div class="created">
+            Created By <span>Talip Ertunga Metin</span> &nbsp;  /\ Tüm Hakları Saklıdır...
+          </div>
+        </section>
+
+    <!-- footer section stop -->
+
+    <script src="JS/script.js"></script>
+    <script src="JS/search.js"></script>
+    <script>
+      // Search butonunun her sayfada çalışmasını garanti altına al
+      document.addEventListener("DOMContentLoaded", function () {
+        var searchBtn = document.getElementById("search-btn");
+        var searchForm = document.getElementById("search-form");
+        var searchInput = document.getElementById("search-box");
+        var searchResults = document.getElementById("search-results");
+        var searchCloseBtn = document.getElementById("search-close-btn");
+        if (searchBtn && searchForm && searchInput) {
+          let lastState = false;
+          searchBtn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            lastState = searchForm.classList.toggle("active");
+            if (lastState) {
+              searchInput.value = "";
+              searchInput.focus();
+              if (searchResults) searchResults.style.display = "block";
+            } else {
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+          if (searchCloseBtn) {
+            searchCloseBtn.addEventListener("click", function (e) {
+              e.stopPropagation();
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            });
+          }
+          searchInput.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") {
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+          document.addEventListener("click", function (e) {
+            if (!searchForm.contains(e.target) && (!searchResults || !searchResults.contains(e.target))) {
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+        }
+      });
+    </script>
+    <script src="JS/video-likes.js"></script>
+    
+  </body>
+</html>

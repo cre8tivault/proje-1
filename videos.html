@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Videolarımız</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <!-- header section start  -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menubar">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="urunler/teddy-bear.html">Ürünler</a>
+            <a href="videos.html" class="active">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+        <div class="buttons">
+             <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </button>
+             <button id="cart-btn" >
+                <i class="fa-solid fa-cart-shopping"></i>
+             </button>
+             <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+             </button>
+        </div>
+
+        <div class="search-form" id="search-form" tabindex="-1">
+          <input type="text" class="search-input" id="search-box" placeholder="Ürün ara..." autocomplete="off">
+          <button type="button" id="search-close-btn" style="background:none;border:none;font-size:2rem;cursor:pointer;margin-left:8px;">
+            <i class="fas fa-times"></i>
+          </button>
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="search-results" id="search-results"></div>
+
+        </div> 
+        
+         <div class="cart-items-container">
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-1.png" alt="Teddy-Bear">
+            <div class="content">
+              <h3>Teddy Bear</h3>
+              <div class="price">
+                750TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-2.png" alt="Bunny">
+            <div class="content">
+              <h3>Bunny</h3>
+              <div class="price">
+                650TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-3.png" alt="Bag">
+            <div class="content">
+              <h3>Bag</h3>
+              <div class="price">
+                1850TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+        
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-4.png" alt="Broş">
+            <div class="content">
+              <h3>Broş</h3>
+              <div class="price">
+                2750TL
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">Satın Al</a>
+         </div>
+          </div>
+          
+    </header>
+
+    <!-- header section stop  -->
+
+    <!-- Video section start -->
+    <div style="height: 7.5rem;"></div>
+    <section class="videos" id="videos">
+        <h1 class="heading">Yapım  <span>Videoları</span></h1>
+        <div class="box-container">
+          
+          <div class="box">
+            <div class="box-head">
+              <span class="title">Amigurumi</span>
+              <a href="#" class="name">Oyuncak Yapımı</a>
+            </div>
+            <div class="video">
+              <video controls src="videos/video-1.mp4">video-1</video>
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="like" data-video="0">like (0)</b>
+              </div>
+            <div class="videos-btn-1">
+              <a href="#">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+          <div class="box">
+            <div class="box-head">
+              <span class="title">Örgü</span>
+              <a href="#" class="name">Bluz Yapımı</a>
+            </div>
+            <div class="video">
+              <video controls src="videos/video-2.mp4">video-2</video>
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="like" data-video="1">like (0)</b>
+              </div>
+            <div class="videos-btn-1">
+              <a href="#">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+            <div class="box-head">
+              <span class="title">Alize Puffy</span>
+              <a href="#" class="name">Battaniye Yapımı</a>
+            </div>
+            <div class="video">
+              <video controls src="videos/video-3.mp4">video-3</video>
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="like" data-video="2">like (0)</b>
+              </div>
+            <div class="videos-btn-1">
+              <a href="#">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Video section stop -->
+
+    <!-- footer section start -->
+
+        <section class="footer">
+          
+          <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=61577990375476" target="_blank" rel="noopener" class="fab fa-facebook" title="Facebook"></a>
+            <a href="https://www.instagram.com/hobigari/" target="_blank" rel="noopener" class="fab fa-instagram" title="Instagram"></a>
+            <a href="https://x.com/HobiGari" target="_blank" rel="noopener" class="fab fa-twitter" title="Twitter"></a>
+            <a href="https://www.youtube.com/@HobiGari" target="_blank" rel="noopener" class="fab fa-youtube" title="YouTube"></a>
+            <a href="https://tr.pinterest.com/hobigari/" target="_blank" rel="noopener" class="fab fa-pinterest" title="Pinterest"></a>
+          </div>
+          <div class="links">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="urunler/teddy-bear.html">Proje</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+          </div>
+
+          <div class="created">
+            Created By <span>Talip Ertunga Metin</span> &nbsp;  /\ Tüm Hakları Saklıdır...
+          </div>
+        </section>
+
+    <!-- footer section stop -->
+
+    <script src="JS/script.js"></script>
+    <script src="JS/search.js"></script>
+    <script>
+      // index.html'deki search kutusu davranışını tamamen kopyala
+      document.addEventListener("DOMContentLoaded", function () {
+        const searchBtn = document.getElementById("search-btn");
+        const searchForm = document.getElementById("search-form");
+        const searchInput = document.getElementById("search-box");
+        const searchCloseBtn = document.getElementById("search-close-btn");
+        const searchResults = document.getElementById("search-results");
+        let products = [];
+        // Ürünleri products.json'dan al
+        fetch("JS/products.json")
+          .then((res) => res.json())
+          .then((data) => {
+            products = data;
+          });
+        // Arama kutusunu aç/kapat
+        if (searchBtn && searchForm && searchInput) {
+          let lastState = false;
+          searchBtn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            lastState = searchForm.classList.toggle("active");
+            if (lastState) {
+              searchInput.value = "";
+              searchInput.focus();
+              if (searchResults) searchResults.style.display = "block";
+            } else {
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+          if (searchCloseBtn) {
+            searchCloseBtn.addEventListener("click", function (e) {
+              e.stopPropagation();
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            });
+          }
+          // Escape ile kapat
+          searchInput.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") {
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+          // Dışarı tıklanınca kapat
+          document.addEventListener("click", function (e) {
+            if (!searchForm.contains(e.target) && (!searchResults || !searchResults.contains(e.target))) {
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+          // Arama yapıldıkça filtrele
+          searchInput.addEventListener("input", function () {
+            const query = searchInput.value.toLowerCase().trim();
+            searchResults.innerHTML = "";
+            if (query === "") {
+              searchResults.style.display = "none";
+              return;
+            }
+            const matched = products.filter((p) =>
+              p.name.toLowerCase().includes(query)
+            );
+            if (matched.length === 0) {
+              searchResults.innerHTML = `<div class=\"no-results\">Sonuç bulunamadı</div>`;
+            } else {
+              matched.forEach((p) => {
+                const item = document.createElement("a");
+                item.href = p.url;
+                item.innerHTML = `
+                  <img src="${p.image}" style="width:30px; vertical-align:middle; margin-right:10px;">
+                  <strong>${p.name}</strong> - ${p.price}
+                `;
+                searchResults.appendChild(item);
+              });
+            }
+            searchResults.style.display = "block";
+          });
+        }
+      });
+    </script>
+    <script src="JS/video-likes.js"></script>
+
+    
+  </body>
+</html>

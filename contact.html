@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+    <!-- header section start  -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menubar">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="project.html">Proje</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html" class="active">İletişim</a>
+        </nav>
+        <div class="buttons">
+             <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </button>
+             <button id="cart-btn" >
+                <i class="fa-solid fa-cart-shopping"></i>
+             </button>
+             <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+             </button>
+        </div>
+
+        <div class="search-form active" id="search-form">
+  <input type="text" class="search-input" id="search-box" placeholder="Ara...">
+  <i class="fas fa-search"></i>
+</div>
+<div class="search-results" id="search-results"></div>
+
+        </div>  
+        
+         <div class="cart-items-container">
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-1.png" alt="Teddy-Bear">
+            <div class="content">
+              <h3>Teddy Bear</h3>
+              <div class="price">
+                750TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-2.png" alt="Bunny">
+            <div class="content">
+              <h3>Bunny</h3>
+              <div class="price">
+                650TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-3.png" alt="Bag">
+            <div class="content">
+              <h3>Bag</h3>
+              <div class="price">
+                1850TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+        
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-4.png" alt="Broş">
+            <div class="content">
+              <h3>Broş</h3>
+              <div class="price">
+                2750TL
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">Satın Al</a>
+         </div>
+          </div>
+          
+    </header>
+
+    <!-- header section stop  -->
+
+    <!-- contact section start -->
+
+ <!-- <form>
+                <h3>İletişim Formu</h3>
+                <div class="inputBox">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                  <i class="fas fa-envelope"></i>
+                  <input type="email" placeholder="E-Mail">
+                </div>
+                <div class="inputBox">
+                  <i class="fas fa-phone"></i>
+                  <input type="number" placeholder="Telefon">
+                </div>
+                <input type= "submit" class="btn" value="Gönder">
+              </form> -->
+
+              <!-- <div class="inputBox">
+              <i class="fas fa-comment"></i>
+              <textarea id="message" placeholder="Mesajınız"></textarea>
+              </div> -->
+
+        <div style="height: 7.5rem;"></div>
+        <section class="contact" id="contact">
+            <h1 class="heading">İletişim  <span>Bilgilerimiz</span></h1>
+            <div class="row">
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.8489703479167!2d27.134539299999997!3d38.2598087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbe1a3901763e7%3A0xc67618a0e126f13c!2sKemalpa%C5%9Fa%2C%20143.%20Sk.%20No%3A23%2C%2035470%20Menderes%2F%C4%B0zmir!5e0!3m2!1str!2str!4v1751378265124!5m2!1str!2str"  loading="lazy" referrerpolicy="no-referrer-when-downgrade">           
+              </iframe>
+              
+              <form id="contactForm">
+              <h3>İletişim Formu</h3>
+              <div class="inputBox">
+              <i class="fas fa-user"></i>
+              <input type="text" id="name" placeholder="Adınız" required>
+              </div>
+              <div class="inputBox">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="email" placeholder="E-Mail" required>
+              </div>
+              <div class="inputBox">
+              <i class="fas fa-phone"></i>
+              <input type="number" id="phone" placeholder="Telefon" required>
+              </div>
+              <div class="inputBox">
+              <i class="fas fa-comment"></i>
+              <textarea id="message" placeholder="Mesajınızı buraya yazın..."oninput="autoResize(this)"></textarea>
+            </div>
+              <button type="submit" class="btn">Gönder</button>
+              </form>
+              </div>
+
+        </section>
+
+    <!-- contact section stop -->
+
+    <!-- footer section start -->
+
+        <section class="footer">
+          
+          <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=61577990375476" target="_blank" rel="noopener" class="fab fa-facebook" title="Facebook"></a>
+            <a href="https://www.instagram.com/hobigari/" target="_blank" rel="noopener" class="fab fa-instagram" title="Instagram"></a>
+            <a href="https://x.com/HobiGari" target="_blank" rel="noopener" class="fab fa-twitter" title="Twitter"></a>
+            <a href="https://www.youtube.com/@HobiGari" target="_blank" rel="noopener" class="fab fa-youtube" title="YouTube"></a>
+            <a href="https://tr.pinterest.com/hobigari/" target="_blank" rel="noopener" class="fab fa-pinterest" title="Pinterest"></a>
+          </div>
+          <div class="links">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="urunler/teddy-bear.html">Proje</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+          </div>
+
+          <div class="created">
+            Created By <span>Talip Ertunga Metin</span> &nbsp;  /\ Tüm Hakları Saklıdır...
+          </div>
+        </section>
+
+    <!-- footer section stop -->
+
+    <script src="JS/script.js"></script>
+    <script src="JS/search.js"></script>
+    <script src="JS/video-likes.js"></script>
+    
+    
+  </body>
+</html>

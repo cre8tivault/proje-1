@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <title>Ürünlerimiz</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  
+  <body style="display: flex; flex-direction: column; min-height: 100vh;">
+    <!-- header section start  -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menubar">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="urunler/teddy-bear.html" class="active">Ürünler</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+        <div class="buttons">
+             <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </button>
+             <button id="cart-btn" >
+                <i class="fa-solid fa-cart-shopping"></i>
+             </button>
+             <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+             </button>
+        </div>
+
+        <div class="search-form" id="search-form">
+  <input type="text" class="search-input" id="search-box" placeholder="Ara...">
+  <i class="fas fa-search"></i>
+</div>
+<div class="search-results" id="search-results"></div>
+
+        </div> 
+        
+         <div class="cart-items-container">
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-1.png" alt="Teddy-Bear">
+            <div class="content">
+              <h3>Teddy Bear</h3>
+              <div class="price">
+                750TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-2.png" alt="Bunny">
+            <div class="content">
+              <h3>Bunny</h3>
+              <div class="price">
+                650TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-3.png" alt="Bag">
+            <div class="content">
+              <h3>Bag</h3>
+              <div class="price">
+                1850TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+        
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-4.png" alt="Broş">
+            <div class="content">
+              <h3>Broş</h3>
+              <div class="price">
+                2750TL
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">Satın Al</a>
+         </div>
+          </div>
+          
+    </header>
+
+    <!-- header section stop  -->
+
+    <!-- Proje section start  --> 
+     
+    <!-- <a href="#" class="btn">Sipariş ver.</a> -->
+     <!--  
+    <div class="box-bottom">
+              <a href="https://wa.me/905353016020?text=HobiGari%20web%20sitesinden%20bilgi%20almak%20istiyorum" 
+   class="btn" 
+   target="_blank">
+   <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+</a>
+          </div>
+     -->
+
+     <!--  
+     
+     <div class="box-bottom">
+              <a href="https://wa.me/905353016020?text=HobiGari%20web%20sitesinden%20bilgi%20almak%20istiyorum"
+   class="btn" 
+   target="_blank">             </a>
+     
+     -->
+
+     <!--   
+     
+     <h1 class="heading">Ürün  <span>Projeleri</span></h1>
+      <div class="box-container">
+        <div class="box">        
+          <div class="box-head">
+            <div class="product">
+              <img src="images/urun-1.png" alt="urun">
+              <span class="urun-category">Teddy-Bear</span>
+              <h3>1 Teddy Bear</h3>
+              <div class="price">750TL. <span>1000TL</span></div>
+          </div></div>
+         
+          <div class="box-bottom">
+              <a href="https://wa.me/905353016020?text=HobiGari%20web%20sitesinden%20bilgi%20almak%20istiyorum"
+   class="btn" 
+   target="_blank">             
+   <i class="fab fa-whatsapp"></i> WhatsApp Sipariş</a>
+
+         
+</div>
+          
+        </div>
+     
+     -->
+
+
+    <section class="urun" id="project" style="flex: 1 0 auto;">
+      <h1 class="heading" style="margin-top: 18rem;">Ürün <span>Projeleri</span></h1>
+      <div class="box-container product-grid-effect">
+        <!-- Ürün kutuları buraya eklenecek -->
+        <div class="box" style="--box-order:0">
+          <div class="box-head">
+            <img src="images/urun-1.png" alt="urun">
+            <span class="urun-category">Oyuncak</span>
+            <h3>Teddy Bear</h3>
+            <div class="price">750TL. <span>1000TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Oyuncak%0A*Ürün%20Adı:*%20Teddy%20Bear%0A*Fiyat:*%20750TL%20(İndirimli,%20Eski%20Fiyat:%201000TL)%0A*Resim:*%20https://hobigari-new.netlify.app/images/urun-1.png" class="btn" target="_blank">
+              <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+            </a>
+          </div>
+        </div>
+        <div class="box" style="--box-order:1">
+          <div class="box-head">
+            <img src="images/urun-2.png" alt="urun">
+            <span class="urun-category">Bunny</span>
+            <h3>1 Bunny</h3>
+            <div class="price">650TL. <span>900TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Bunny%0A*Ürün%20Adı:*%201%20Bunny%0A*Fiyat:*%20650TL%20(İndirimli,%20Eski%20Fiyat:%20900TL)%0A*Resim:*%20https://hobigari-new.netlify.app/images/urun-2.png" class="btn" target="_blank">
+              <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+            </a>
+          </div>
+        </div>
+        <div class="box" style="--box-order:2">
+          <div class="box-head">
+            <img src="images/urun-3.png" alt="urun">
+            <span class="urun-category">Bags</span>
+            <h3>1 Bag</h3>
+            <div class="price">1850TL. <span>2200TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Bags%0A*Ürün%20Adı:*%201%20Bag%0A*Fiyat:*%201850TL%20(İndirimli,%20Eski%20Fiyat:%202200TL)%0A*Resim:*%20https://hobigari-new.netlify.app/images/urun-3.png" class="btn" target="_blank">
+              <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+            </a>
+          </div>
+        </div>
+        <div class="box" style="--box-order:3">
+          <div class="box-head">
+            <img src="images/urun-4.png" alt="urun">
+            <span class="urun-category">Broş</span>
+            <h3>1 Broş</h3>
+            <div class="price">2750TL. <span>4000TL</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Broş%0A*Ürün%20Adı:*%201%20Broş%0A*Fiyat:*%202750TL%20(İndirimli,%20Eski%20Fiyat:%204000TL)%0A*Resim:*%20https://hobigari-new.netlify.app/images/urun-4.png" class="btn" target="_blank">
+              <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+            </a>
+          </div>
+        </div>
+        <!-- Yeni ürünler eklemek için yukarıdaki <div class="box">...</div> bloğunu kopyalayabilirsiniz -->
+      </div>
+    </section>
+
+    <!-- Proje section stop  -->
+
+    <!-- footer section start -->
+
+        <footer class="footer" style="margin-top: auto;">
+          <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=61577990375476" target="_blank" rel="noopener" class="fab fa-facebook" title="Facebook"></a>
+            <a href="https://www.instagram.com/hobigari/" target="_blank" rel="noopener" class="fab fa-instagram" title="Instagram"></a>
+            <a href="https://x.com/HobiGari" target="_blank" rel="noopener" class="fab fa-twitter" title="Twitter"></a>
+            <a href="https://www.youtube.com/@HobiGari" target="_blank" rel="noopener" class="fab fa-youtube" title="YouTube"></a>
+            <a href="https://tr.pinterest.com/hobigari/" target="_blank" rel="noopener" class="fab fa-pinterest" title="Pinterest"></a>
+          </div>
+          <div class="links">
+            <a href="index.html">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="project.html">Proje</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+          </div>
+          <div class="created">
+            Created By <span>Talip Ertunga Metin</span> &nbsp;  /\ Tüm Hakları Saklıdır...
+          </div>
+        </footer>
+
+    <!-- footer section stop -->
+
+    <script src="JS/script.js"></script>
+    <script src="JS/search.js"></script>
+    <script>
+      // Search butonunun her sayfada çalışmasını garanti altına al
+      document.addEventListener("DOMContentLoaded", function () {
+        var searchBtn = document.getElementById("search-btn");
+        var searchForm = document.getElementById("search-form");
+        var searchInput = document.getElementById("search-box");
+        var searchResults = document.getElementById("search-results");
+        var searchCloseBtn = document.getElementById("search-close-btn");
+        if (searchBtn && searchForm && searchInput) {
+          let lastState = false;
+          searchBtn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            lastState = searchForm.classList.toggle("active");
+            if (lastState) {
+              searchInput.value = "";
+              searchInput.focus();
+              if (searchResults) searchResults.style.display = "block";
+            } else {
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+          if (searchCloseBtn) {
+            searchCloseBtn.addEventListener("click", function (e) {
+              e.stopPropagation();
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            });
+          }
+          searchInput.addEventListener("keydown", function(e) {
+            if (e.key === "Escape") {
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+          document.addEventListener("click", function (e) {
+            if (!searchForm.contains(e.target) && (!searchResults || !searchResults.contains(e.target))) {
+              searchForm.classList.remove("active");
+              if (searchResults) searchResults.style.display = "none";
+              if (searchInput) searchInput.value = "";
+            }
+          });
+        }
+      });
+    </script>
+    <script src="JS/video-likes.js"></script>
+    
+  </body>
+</html>
