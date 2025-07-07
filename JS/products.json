@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Teddy Bear",
+    "price": "750TL",
+    "image": "images/urun-1.png",
+    "url": "urunler/teddy-bear.html"
+  },
+  {
+    "name": "Bunny",
+    "price": "650TL",
+    "image": "images/urun-2.png",
+    "url": "urunler/bunny.html"
+  },
+  {
+    "name": "Bag",
+    "price": "1850TL",
+    "image": "images/urun-3.png",
+    "url": "urunler/bag.html"
+  },
+  {
+    "name": "Broş",
+    "price": "2750TL",
+    "image": "images/urun-4.png",
+    "url": "urunler/bros.html"
+  }
+]

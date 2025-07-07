@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta http-equiv="refresh" content="0;url=../project.html">
+    <script>window.location.replace('../project.html');</script>
+  </head>
+  <body>
+    <!-- Otomatik yönlendirme -->
+    <p>Yönlendiriliyorsunuz... Eğer otomatik yönlendirilmezseniz <a href="../project.html">buraya tıklayın</a>.</p>
+    <!-- header section start  -->
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+        <nav class="menubar">
+            <a href="index.html" class="active">Anasayfa</a>
+            <a href="about.html">Hakkımızda</a>
+            <a href="urunler/teddy-bear.html">Ürünler</a>
+            <a href="videos.html">Videolar</a>
+            <a href="review.html">Yorumlar</a>
+            <a href="contact.html">İletişim</a>
+        </nav>
+        <div class="buttons">
+             <button id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+             </button>
+             <button id="cart-btn" >
+                <i class="fa-solid fa-cart-shopping"></i>
+             </button>
+             <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+             </button>
+        </div>
+
+
+        <div class="search-form" id="search-form" tabindex="-1">
+          <input type="text" class="search-input" id="search-box" placeholder="Ürün ara..." autocomplete="off">
+          <button type="button" id="search-close-btn" style="background:none;border:none;font-size:2rem;cursor:pointer;margin-left:8px;">
+            <i class="fas fa-times"></i>
+          </button>
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="search-results" id="search-results"></div>
+
+        </div>   
+        
+         <div class="cart-items-container">
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-1.png" alt="Teddy-Bear">
+            <div class="content">
+              <h3>Teddy Bear</h3>
+              <div class="price">
+                750TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-2.png" alt="Bunny">
+            <div class="content">
+              <h3>Bunny</h3>
+              <div class="price">
+                650TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+         
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-3.png" alt="Bag">
+            <div class="content">
+              <h3>Bag</h3>
+              <div class="price">
+                1850TL
+              </div>
+            </div>
+          </div>
+        <a href="#" class="btn">Satın Al</a>
+        
+          <div class="cart-item">
+            <i class="fas fa-times"></i>
+            <img src="images/urun-4.png" alt="Broş">
+            <div class="content">
+              <h3>Broş</h3>
+              <div class="price">
+                2750TL
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">Satın Al</a>
+         </div>
+          </div>
+          
+    </header>
+
+    <!-- header section stop  -->
+
+    <!-- Anasayfa section start  -->  <!-- <a href="#" class="btn">WhatsApp Sipariş</a> -->
+
+    <section class="home" id="home">
+
+      <div class="content">
+        <h3>Like a Unicorn</h3>
+        <p>Ürünleri doğrudan istek üzerine yapmaktayız. HobiGari instagram hesabından ve proje sekmesinden yapılan ürünleri görebilirsiniz. 
+           İsteklerinizi tabii ki hızlı bir şekilde ulaştırmak isteriz ama ürünler %100 el emeği olduğu için biraz yapımı zaman alabiliyor. </p>
+        
+          <button onclick="goToSite()" class="btn">Mağazamız</button>
+
+<script>
+  function goToSite() {
+    const kullaniciAdi = "misafir";
+    window.location.href = `https://www.instagram.com/hobigari/?ref=${kullaniciAdi}`;
+  }
+</script>
+        
+        <a href="https://wa.me/905353016020?text=HobiGari%20web%20sitesinden%20bilgi%20almak%20istiyorum" 
+   class="btn" 
+   target="_blank">
+   <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+</a>
+      </div>
+
+    </section>
+
+    <!-- Anasayfa section stop  -->
+
+    <!-- Proje section start  --> <!-- <a href="#" class="btn">Sipariş ver.</a> -->
+     <!--  
+    <div class="box-bottom">
+              <a href="https://wa.me/905353016020?text=HobiGari%20web%20sitesinden%20bilgi%20almak%20istiyorum" 
+   class="btn" 
+   target="_blank">
+   <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+</a>
+          </div>
+     -->
+
+     <!--  
+     
+     <div class="box-bottom">
+              <a href="https://wa.me/905353016020?text=HobiGari%20web%20sitesinden%20bilgi%20almak%20istiyorum"
+   class="btn" 
+   target="_blank">             </a>
+     
+     -->
+
+     <!--   
+     
+     <h1 class="heading">Ürün  <span>Projeleri</span></h1>
+      <div class="box-container">
+        <div class="box">        
+          <div class="box-head">
+            <div class="product">
+              <img src="images/urun-1.png" alt="urun">
+              <span class="urun-category">Teddy-Bear</span>
+              <h3>1 Teddy Bear</h3>
+              <div class="price">750TL. <span>1000TL</span></div>
+          </div></div>
+         
+          <div class="box-bottom">
+              <a href="https://wa.me/905353016020?text=HobiGari%20web%20sitesinden%20bilgi%20almak%20istiyorum"
+   class="btn" 
+   target="_blank">             
+   <i class="fab fa-whatsapp"></i> WhatsApp Sipariş</a>
+
+         
+</div>
+          
+        </div>
+     
+     -->
+
+    <section class="urun" id="project">
+      <h1 class="heading">Ürün <span>Projeleri</span></h1>
+  <div class="box-container">
+    <div class="box">
+    <div class="box-head">
+        <img src="images/urun-1.png" alt="urun">
+        <span class="urun-category">Oyuncak</span>
+        <h3>Teddy Bear</h3>
+        <div class="price">750TL. <span>1000TL</span></div>
+    </div>
+    <div class="box-bottom">
+        <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Oyuncak%0A*Ürün%20Adı:*%20Teddy%20Bear%0A*Fiyat:*%20750TL%20(İndirimli,%20Eski%20Fiyat:%201000TL)%0A*Resim:*%20https://hobigari-new.netlify.app/images/urun-1.png" 
+           class="btn" 
+           target="_blank">
+           <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+        </a>
+    </div>
+</div>
+  
+
+          <div class="box">
+    <div class="box-head">
+        <img src="images/urun-2.png" alt="urun">
+        <span class="urun-category">Bunny</span>
+        <h3>1 Bunny</h3>
+        <div class="price">650TL. <span>900TL</span></div>
+    </div>
+    <div class="box-bottom">
+        <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Bunny%0A*Ürün%20Adı:*%201%20Bunny%0A*Fiyat:*%20650TL%20(İndirimli,%20Eski%20Fiyat:%20900TL)%0A*Resim:*%20https://hobigari-new.netlify.app/images/urun-2.png" 
+           class="btn" 
+           target="_blank">
+           <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+        </a>
+    </div>
+</div>
+
+          <div class="box">
+    <div class="box-head">
+        <img src="images/urun-3.png" alt="urun">
+        <span class="urun-category">Bags</span>
+        <h3>1 Bag</h3>
+        <div class="price">1850TL. <span>2200TL</span></div>
+    </div>
+    <div class="box-bottom">
+        <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Bags%0A*Ürün%20Adı:*%201%20Bag%0A*Fiyat:*%201850TL%20(İndirimli,%20Eski%20Fiyat:%202200TL)%0A*Resim:*%20https://hobigari-new.netlify.app/images/urun-3.png" 
+           class="btn" 
+           target="_blank">
+           <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+        </a>
+    </div>
+</div>
+
+          <div class="box">
+    <div class="box-head">
+        <img src="images/urun-4.png" alt="urun">
+        <span class="urun-category">Broş</span>
+        <h3>1 Broş</h3>
+        <div class="price">2750TL. <span>4000TL</span></div>
+    </div>
+    <div class="box-bottom">
+        <a href="https://wa.me/905353016020?text=Merhaba,%20HobiGari'den%20sipariş%20vermek%20istiyorum:%0A%0A*Ürün%20Kategorisi:*%20Broş%0A*Ürün%20Adı:*%201%20Broş%0A*Fiyat:*%202750TL%20(İndirimli,%20Eski%20Fiyat:%204000TL)%0A*Resim:*%20https://https://hobigari-new.netlify.app/images/urun-4.png" 
+           class="btn" 
+           target="_blank">
+           <i class="fab fa-whatsapp"></i> WhatsApp Sipariş
+        </a>
+    </div>
+</div>
+        </div>
+      </div>
+    
+    </section>
+
+    <!-- Proje section stop  -->
+
+    <!-- Video section start -->
+
+    <section class="videos" id="videos">
+        <h1 class="heading">Yapım  <span>Videoları</span></h1>
+        <div class="box-container">
+          
+          <div class="box">
+            <div class="box-head">
+              <span class="title">Amigurumi</span>
+              <a href="#" class="name">Oyuncak Yapımı</a>
+            </div>
+            <div class="video">
+              <video controls src="videos/video-1.mp4">video-1</video>
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="like">like</b>
+              </div>
+            <div class="videos-btn-1">
+              <a href="#">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+          <div class="box">
+            <div class="box-head">
+              <span class="title">Örgü</span>
+              <a href="#" class="name">Bluz Yapımı</a>
+            </div>
+            <div class="video">
+              <video controls src="videos/video-2.mp4">video-2</video>
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="like">like</b>
+              </div>
+            <div class="videos-btn-1">
+              <a href="#">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+            <div class="box-head">
+              <span class="title">Alize Puffy</span>
+              <a href="#" class="name">Battaniye Yapımı</a>
+            </div>
+            <div class="video">
+              <video controls src="videos/video-3.mp4">video-3</video>
+            </div>
+            <div class="box-bottom">
+              <div class="info">
+                <b class="like">like</b>
+              </div>
+            <div class="videos-btn-1">
+              <a href="#">
+                <i class="fa-solid fa-thumbs-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Video section stop -->
+
+    <!-- About section start -->
+
+    <section class="about" id="about">
+      <h1 class="heading">Biz  <span>Kimiz?</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.webp" alt="about">
+        </div>
+        <div class="content">
+          <h3>Biz kimiz kısaca anlatalım...</h3>
+          <p>Biz 6 kadın girişimci olarak 2008 yılında sektöre girdik.</p>
+          <p>İlk başta 3 kişi olarak çıktığımız bu yolculukta gerek eğitimler alarak, gerekse farklı tasarımlar öğrenerek portföyümüze fazlaca ürün yelpazesi soktuk.</p> 
+          <p>Bizim genel hedefimiz bu işe gönlünü vermiş herkesin bir şekilde bu işi öğrenmesini sağlamaktır.</p> 
+          <p>Gerek eğitim videoları olsun, gerekse istediğiniz ürünler olsun hepsini sayfadaki iletişim butonundan sorabilir ve sitede gezintiye çıkabilirsiniz.</p>
+          <a href="#" class="btn">Daha Fazlası</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section stop -->
+
+    <!-- Review section start -->
+
+      <section class="Review" id="review">
+        <h1 class="heading">Müşteri  <span>Yorumları</span></h1>
+        <div class="box-container">
+          <div class="box">
+            <img src="images/yorum.png" alt="yorum" class="icon">
+            <p>
+              Ürünleriniz gerçekten çok hoş. Özellikle sizden geçen gün eşime bir bluz aldım, gerçekten dokusu o kadar güzel ki anlatamam. Tam anlamıyla 5 yıldızı
+              hakediyorsunuz.
+            </p>
+            <img src="images/avatar-1.png" alt="avatar" class="user">
+            <h3>Michael Cato</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/yorum.png" alt="yorum" class="icon">
+            <p>
+              İnternette gezinirken sitenize rastladım. Gerçekten ürünleriniz diğer yerlerden daha kaliteli. videolara ayrıca bayıldım. 
+              Bu sayede evde kendimde ayrıca hobi edinmiş oldum sayenizde. Çok teşekkür ederim.
+            </p>
+            <img src="images/avatar-2.png" alt="avatar" class="user">
+            <h3>Jennifer Cahol</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="images/yorum.png" alt="yorum" class="icon">
+            <p>
+              Herhangi bir mağazaya gidip istediklerimi arayıp bulamayınca çılgına dönüyordum. Sizinle tanışınca resmen hayatım değişti. 
+              Hem eşime hem de çocuklarıma bir şeyler bulabildim. Ayrıca videolarınızı izleyip kendimde bir kaç tane yapabildim. Çok teşekkür ederim.
+            </p>
+            <img src="images/avatar-3.png" alt="avatar" class="user">
+            <h3>Angela Won</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </section>  
+
+    <!-- Review section stop -->
+
+    <!-- contact section start -->
+      <!-- <form>
+                <h3>İletişim Formu</h3>
+                <div class="inputBox">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Name">
+                </div>
+                <div class="inputBox">
+                  <i class="fas fa-envelope"></i>
+                  <input type="email" placeholder="E-Mail">
+                </div>
+                <div class="inputBox">
+                  <i class="fas fa-phone"></i>
+                  <input type="number" placeholder="Telefon">
+                </div>
+                <input type= "submit" class="btn" value="Gönder">
+              </form> -->
+
+        <section class="contact" id="contact">
+            <h1 class="heading">İletişim  <span>Bilgilerimiz</span></h1>
+            <div class="row">
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.8489703479167!2d27.134539299999997!3d38.2598087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbe1a3901763e7%3A0xc67618a0e126f13c!2sKemalpa%C5%9Fa%2C%20143.%20Sk.%20No%3A23%2C%2035470%20Menderes%2F%C4%B0zmir!5e0!3m2!1str!2str!4v1751378265124!5m2!1str!2str"  loading="lazy" referrerpolicy="no-referrer-when-downgrade">           
+              </iframe>
+              
+              <form id="contactForm">
+              <h3>İletişim Formu</h3>
+              <div class="inputBox">
+              <i class="fas fa-user"></i>
+              <input type="text" id="name" placeholder="Adınız" required>
+              </div>
+              <div class="inputBox">
+              <i class="fas fa-envelope"></i>
+              <input type="email" id="email" placeholder="E-Mail" required>
+              </div>
+              <div class="inputBox">
+              <i class="fas fa-phone"></i>
+              <input type="number" id="phone" placeholder="Telefon" required>
+              </div>
+              <div class="inputBox">              
+              <textarea id="message" placeholder="Mesajınızı buraya yazın..."oninput="autoResize(this)"></textarea>
+            </div>
+            <div>
+              
+              <button type="submit" class="btn"><i class="fas fa-comment"></i>Gönder</button>
+            </div>
+              </form>
+              </div>
+
+        </section>
+
+    <!-- contact section stop -->
+
+    <!-- footer section start -->
+
+        <section class="footer">
+          <div class="search">
+            <input type="text" class="search-input" placeholder="Arama">
+            <button class="btn btn-primary">
+              site içi arama
+            </button>
+          </div>
+          <div class="share">
+            <a href="https://www.facebook.com/profile.php?id=61577990375476" target="_blank" rel="noopener" class="fab fa-facebook" title="Facebook"></a>
+            <a href="https://www.instagram.com/hobigari/" target="_blank" rel="noopener" class="fab fa-instagram" title="Instagram"></a>
+            <a href="https://x.com/HobiGari" target="_blank" rel="noopener" class="fab fa-twitter" title="Twitter"></a>
+            <a href="https://www.youtube.com/@HobiGari" target="_blank" rel="noopener" class="fab fa-youtube" title="YouTube"></a>
+            <a href="https://tr.pinterest.com/hobigari/" target="_blank" rel="noopener" class="fab fa-pinterest" title="Pinterest"></a>
+          </div>
+          <div class="links">
+            <a href="#">Anasayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Proje</a>
+            <a href="#">Videolar</a>
+            <a href="#">Yorumlar</a>
+            <a href="#">İletişim</a>
+          </div>
+
+          <div class="created">
+            Created By <span>Talip Ertunga Metin</span> &nbsp;  /\ Tüm Hakları Saklıdır...
+          </div>
+        </section>
+
+    <!-- footer section stop -->
+
+    <script src="JS/script.js"></script>
+      <script src="JS/search.js"></script>
+          <script src="JS/video-likes.js"></script>
+    
+  </body>
+</html>
